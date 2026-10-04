@@ -1,2 +1,7 @@
+[build]
+  publish = "public"
+  command = "echo 'Deploying static site'"
+
 [dev]
   targetPort = 3000
+  publish = "public"
